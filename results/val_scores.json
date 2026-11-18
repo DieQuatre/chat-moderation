@@ -1,0 +1,7 @@
+{
+  "Lexicon rule": 0.7688,
+  "tf-idf + LR": 0.8475,
+  "word2vec + FFN": 0.828,
+  "BERT FP32": 0.9171,
+  "BERT INT8": 0.9129
+}

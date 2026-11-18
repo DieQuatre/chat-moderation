@@ -1,0 +1,39 @@
+{
+  "source": "Kaggle Jigsaw Toxic Comment Classification Challenge (2018)",
+  "label_rule": "offensive = any of toxic, severe_toxic, obscene, threat, insult, identity_hate",
+  "seed": 42,
+  "available": {
+    "train.csv": {
+      "comments": 159571,
+      "offensive": 16225,
+      "clean": 143346,
+      "offensive_ratio": 0.1017
+    },
+    "labeled test": {
+      "comments": 63978,
+      "offensive": 6243,
+      "clean": 57735,
+      "offensive_ratio": 0.0976
+    }
+  },
+  "splits": {
+    "train": {
+      "comments": 40000,
+      "offensive": 4067,
+      "clean": 35933,
+      "offensive_ratio": 0.1017
+    },
+    "val": {
+      "comments": 5000,
+      "offensive": 508,
+      "clean": 4492,
+      "offensive_ratio": 0.1016
+    },
+    "test": {
+      "comments": 10000,
+      "offensive": 976,
+      "clean": 9024,
+      "offensive_ratio": 0.0976
+    }
+  }
+}
