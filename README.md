@@ -6,6 +6,8 @@ A chat room where every message is labeled **clean / offensive** by a model befo
 Offensive messages are masked for everyone, and a side panel logs each message's response time.
 The app runs a **quantized (INT8) BERT** on the CPU and lets you switch to the other four models.
 
+**Demo video (≤2 min):** https://youtu.be/SA1vTwfuYZE
+
 ## Quick start
 
 Requires Python 3.13 (3.10+ should work). From the project folder:
